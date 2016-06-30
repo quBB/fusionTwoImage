@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A51AB1D25725600E7076D /* fusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 180A51A51D25725600E7076D /* fusion.png */; };
+		180A51AC1D25725600E7076D /* icon-share-wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 180A51A61D25725600E7076D /* icon-share-wechat.png */; };
+		180A51AD1D25725600E7076D /* icon-share-weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 180A51A71D25725600E7076D /* icon-share-weibo.png */; };
+		180A51AE1D25725600E7076D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A51AA1D25725600E7076D /* ViewController.m */; };
 		188B2D8F1BDDD44A00383BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B2D8E1BDDD44A00383BCB /* main.m */; };
 		188B2D921BDDD44A00383BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B2D911BDDD44A00383BCB /* AppDelegate.m */; };
-		188B2D951BDDD44A00383BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B2D941BDDD44A00383BCB /* ViewController.m */; };
 		188B2D981BDDD44A00383BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188B2D961BDDD44A00383BCB /* Main.storyboard */; };
 		188B2D9A1BDDD44A00383BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188B2D991BDDD44A00383BCB /* Assets.xcassets */; };
 		188B2D9D1BDDD44A00383BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188B2D9B1BDDD44A00383BCB /* LaunchScreen.storyboard */; };
 		188B2DA81BDDD44A00383BCB /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B2DA71BDDD44A00383BCB /* ______Tests.m */; };
 		188B2DB31BDDD44A00383BCB /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B2DB21BDDD44A00383BCB /* ______UITests.m */; };
-		188B2DC21BDDD4EB00383BCB /* icon-share-wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 188B2DC01BDDD4EB00383BCB /* icon-share-wechat.png */; settings = {ASSET_TAGS = (); }; };
-		188B2DC31BDDD4EB00383BCB /* icon-share-weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 188B2DC11BDDD4EB00383BCB /* icon-share-weibo.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180A51A51D25725600E7076D /* fusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fusion.png; sourceTree = "<group>"; };
+		180A51A61D25725600E7076D /* icon-share-wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share-wechat.png"; sourceTree = "<group>"; };
+		180A51A71D25725600E7076D /* icon-share-weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share-weibo.png"; sourceTree = "<group>"; };
+		180A51A91D25725600E7076D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180A51AA1D25725600E7076D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		188B2D8A1BDDD44A00383BCB /* 融合两张图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "融合两张图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188B2D8E1BDDD44A00383BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188B2D901BDDD44A00383BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		188B2D911BDDD44A00383BCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		188B2D931BDDD44A00383BCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		188B2D941BDDD44A00383BCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		188B2D971BDDD44A00383BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		188B2D991BDDD44A00383BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188B2D9C1BDDD44A00383BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +57,6 @@
 		188B2DAE1BDDD44A00383BCB /* 融合两张图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "融合两张图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188B2DB21BDDD44A00383BCB /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		188B2DB41BDDD44A00383BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		188B2DC01BDDD4EB00383BCB /* icon-share-wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share-wechat.png"; sourceTree = "<group>"; };
-		188B2DC11BDDD4EB00383BCB /* icon-share-weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share-weibo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +84,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180A51A41D25725600E7076D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				180A51A51D25725600E7076D /* fusion.png */,
+				180A51A61D25725600E7076D /* icon-share-wechat.png */,
+				180A51A71D25725600E7076D /* icon-share-weibo.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		180A51A81D25725600E7076D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				180A51A91D25725600E7076D /* ViewController.h */,
+				180A51AA1D25725600E7076D /* ViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
 		188B2D811BDDD44A00383BCB = {
 			isa = PBXGroup;
 			children = (
-				188B2DC01BDDD4EB00383BCB /* icon-share-wechat.png */,
-				188B2DC11BDDD4EB00383BCB /* icon-share-weibo.png */,
 				188B2D8C1BDDD44A00383BCB /* 融合两张图片 */,
 				188B2DA61BDDD44A00383BCB /* 融合两张图片Tests */,
 				188B2DB11BDDD44A00383BCB /* 融合两张图片UITests */,
@@ -107,10 +126,10 @@
 		188B2D8C1BDDD44A00383BCB /* 融合两张图片 */ = {
 			isa = PBXGroup;
 			children = (
+				180A51A41D25725600E7076D /* resource */,
+				180A51A81D25725600E7076D /* viewController */,
 				188B2D901BDDD44A00383BCB /* AppDelegate.h */,
 				188B2D911BDDD44A00383BCB /* AppDelegate.m */,
-				188B2D931BDDD44A00383BCB /* ViewController.h */,
-				188B2D941BDDD44A00383BCB /* ViewController.m */,
 				188B2D961BDDD44A00383BCB /* Main.storyboard */,
 				188B2D991BDDD44A00383BCB /* Assets.xcassets */,
 				188B2D9B1BDDD44A00383BCB /* LaunchScreen.storyboard */,
@@ -250,9 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				188B2D9D1BDDD44A00383BCB /* LaunchScreen.storyboard in Resources */,
+				180A51AB1D25725600E7076D /* fusion.png in Resources */,
+				180A51AC1D25725600E7076D /* icon-share-wechat.png in Resources */,
+				180A51AD1D25725600E7076D /* icon-share-weibo.png in Resources */,
 				188B2D9A1BDDD44A00383BCB /* Assets.xcassets in Resources */,
-				188B2DC21BDDD4EB00383BCB /* icon-share-wechat.png in Resources */,
-				188B2DC31BDDD4EB00383BCB /* icon-share-weibo.png in Resources */,
 				188B2D981BDDD44A00383BCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188B2D951BDDD44A00383BCB /* ViewController.m in Sources */,
+				180A51AE1D25725600E7076D /* ViewController.m in Sources */,
 				188B2D921BDDD44A00383BCB /* AppDelegate.m in Sources */,
 				188B2D8F1BDDD44A00383BCB /* main.m in Sources */,
 			);
@@ -504,6 +524,7 @@
 				188B2DB91BDDD44A00383BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188B2DBA1BDDD44A00383BCB /* Build configuration list for PBXNativeTarget "融合两张图片Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +533,7 @@
 				188B2DBC1BDDD44A00383BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188B2DBD1BDDD44A00383BCB /* Build configuration list for PBXNativeTarget "融合两张图片UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +542,7 @@
 				188B2DBF1BDDD44A00383BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
