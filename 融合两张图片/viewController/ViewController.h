@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  融合两张图片
+//
+//  Created by beginner on 15/10/26.
+//  Copyright © 2015年 beginner. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
